@@ -16,14 +16,15 @@
         <div id="res"></div>
     </div>
     <script>
-        const box1 = document.querySelector('input#txt1')
-        const box2 = document.querySelector('input#txt2')
+        var box1 = document.querySelector('input#txt1')
+        var box2 = document.querySelector('input#txt2')
         var res = document.getElementById('res');
+
+
+    function somar() {
         var x1 = Number(box1.value);
         var x2 = Number(box2.value);
         var x3 = x1 + x2 
-
-    function somar() {
         res.innerHTML = `A soma de ${x1} e ${x2} é: ${x3}`
     };
 
