@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body { 
+    background-color: rgb(97, 158, 187);
+}
+
+.container {
+    background-color: white; 
+    width: 500px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    position: relative; 
+    top: 100px; 
+    border-radius: 1.25em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.822);
+}
+
+.titulo {
+    text-align: center; 
+    margin: 3%;
+}
+
+
+#confirmar {
+    margin: 10px 0;
+    padding: 10px;  
+}
+
+#res {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 20px; 
+}
