@@ -5,9 +5,9 @@
     font-family: arial, helvetica, sans-serif;
 }
 
-.imagem {
-    width: 12.5em; 
-    height: 12.5em; 
+#imagem {
+    width: 6em; 
+    height: 6em; 
     border-radius: 100%;
 }
 
@@ -17,7 +17,7 @@
     margin: 0 auto; 
     margin-top: 10%;
     border-radius: 1.25em;
-    background-color: rgba(27, 27, 27, 0.993);
+    background-color: rgba(255, 255, 255, 0.993);
     box-shadow: 2px 2px 3px black; 
 }
 
@@ -40,6 +40,7 @@ body {
     padding: 2px;
     border-radius: 1.25em;
     margin: 2%; 
+    appearance: none;
 }
 
 #pesquisa::placeholder {
@@ -49,9 +50,11 @@ body {
 
 #confirmar {
     padding: 1em 2.50em; 
-    background-color: rgb(255, 180, 41); 
+    background-color: rgb(255, 255, 255); 
     border-radius: 1.25em; 
     margin: 2%;
+    border: none;
+    box-shadow: 2px 2px 3px black;
 }
 
 /*
