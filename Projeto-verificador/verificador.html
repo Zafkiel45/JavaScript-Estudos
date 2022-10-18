@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="verificador.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Verificador</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano:
+                <input type="number" name="ano" id="ano">
+            </p>
+            <br>
+            <p>
+                <input type="radio" name="sexo" id="masculino" checked>
+                <label for="masculino">Homem</label>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Mulher</label>
+                <br>
+                <input type="button" value="confirmar" onclick="confirmar()">
+            </p>
+        </div>
+        <br>
+        <div id="res">
+            O resultado é: 
+        </div>
+    </section>
+    <script src="verificador.js"></script>
+</body>
+</html>
