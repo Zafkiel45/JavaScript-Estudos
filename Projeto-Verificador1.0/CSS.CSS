@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+#titulo {
+    text-align: center; 
+    color: white; 
+    font-family: arial, helvetica, sans-serif;
+    margin: 3%;
+}
+
+section {
+    background-color: white; 
+    border-radius: 1.25em; 
+    padding: 20px; 
+    margin: auto; 
+    width: 500px; 
+    box-shadow: 2px 2px 3px black;
+
+}
+
+div {
+    text-align: center;
+    margin: 20px ;
+}
+
+body {
+    background-color: rgb(48, 148, 241);
+}

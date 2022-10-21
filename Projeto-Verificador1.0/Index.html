@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="CSS.CSS">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Verificador</h1>
+    </header>
+    <section>
+        <div id="div-box">
+            <p>
+                digite o ano: <input type="number" name="ano" id="ano">
+                <br>
+                <input type="radio" name="genero" id="masculino" checked>
+                <label for="masculino">masculino</label>
+                <input type="radio" name="genero" id="feminino">
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            foi detectado
+        </div>
+    </section>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
