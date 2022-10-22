@@ -2,9 +2,8 @@ var data = new Date();
 var ano = data.getFullYear();
 var box = document.getElementById('ano');
 var res = document.getElementById('res');
-var img = document.createElement('img');
 var sexo = document.getElementsByName('genero')
-var idade = ano - Number(box.value)
+var gênero = ''
 
 function verificar() {
     if(box.value.length === 0 || Number(box.value) > ano ){
@@ -12,19 +11,19 @@ function verificar() {
         window.alert('[ERRO] Verifique os dados e tente novamente')
 
     } else {  
-        var gênero = ''
+        var img = document.createElement('img');
+        var idade = ano - Number(box.value)
+
         if(sexo[0].checked){
-            gênero = 'Masculino'
-
-
-            if(idade >0  && idade <7){
-                img.setAttribute('src' , 'imagens/bebê.png')
+            gênero = 'Homem'
+            if(idade <=6 && idade < 10 ){
+                img.setAttribute('src' , 'Imagens/bebê.png')
             }
-    
         } else if(sexo[1].checked){
-            gênero = 'Feminino'
+            gênero = 'Mulher'
         }
-
+        
+        res.innerHTML = `Foi detectado um(a) ${gênero} de ${idade} anos`
         res.appendChild(img)
     }
 }
