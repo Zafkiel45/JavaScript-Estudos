@@ -46,6 +46,7 @@ body {
 #pesquisa::placeholder {
     position: relative;
     left: 4px; 
+    color:rgb(201, 201, 201);
 }
 
 #confirmar {
