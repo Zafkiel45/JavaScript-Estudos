@@ -33,6 +33,16 @@ function clicou() {
             nome.style.backgroundColor = '#46B7C2'
             nome.style.border = 'solid 2px #3C9DA6'
             break
+        case 'hutao':
+        case 'Hutao':
+            img.src = 'imagens/hu_tao.webp'
+            document.body.style.backgroundColor = '#E08A19'
+            container.style.backgroundColor = '#F57D22'
+            container.style.boxShadow = '3px 3px 3px #A86513'
+            botão.style.backgroundColor = '#BA7032'
+            botão.style.boxShadow = '3px 3px 5px #965A29'
+            nome.style.backgroundColor = '#BA7032'
+            nome.style.boxShadow = '3px 3px 5px #965A29'
     }
 
 }
