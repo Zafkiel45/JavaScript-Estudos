@@ -1,13 +1,18 @@
 var box = document.getElementById('box1');
 var res = document.getElementById('res');
+var seletor = document.getElementById('seletor')
 
 function calcular(){
     if(box.value.length == 0){
-        alert('[ERRO] verifique os dados e tente novamente!')
-    }
+        alert('[ERRO] verifique os dados e tente novamente!');
+    } else {
+        var n = Number(box.value)
+        seletor.innerHTML = ''
+        for(var x = 1 ; x <= 10; x++){
+            var opções = document.createElement('option')
+            opções.innerHTML = `${n} x ${x} = ${x * n}`
+            seletor.appendChild(opções)
+        }
+        }
 
-    for(var result = 0; result <= 10; result++){
-        var final = result * Number(box.value);
-        res.innerHTML = `O resultado é: ${final}`
-    }
 }
