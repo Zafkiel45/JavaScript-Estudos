@@ -10,10 +10,9 @@ function calcular(){
         let i = Number(inicio.value);
         let f = Number(fim.value);
         let p = Number(passos.value);  
-
-        while (i <= f) {
-
-            res.innerHTML += `${i + p}`
+        res.innerHTML = ''
+        for(let c = i; c <= f ; c += p){
+            res.innerHTML += ` ${c }`
         }
     }
 }
