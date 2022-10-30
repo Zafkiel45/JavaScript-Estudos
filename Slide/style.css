@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+.imagem {
+    position: absolute; 
+    width: 700px; 
+    height: 500px; 
+    z-index: 0;
+}
+
+figure {
+    width: 700px;
+    height: 500px; 
+}
+
+.visible {
+    z-index: 1;
+}
