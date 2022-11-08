@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div.eventos-mouse{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    justify-content: center;
+}
+
+.eventos-mouse div {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#mouse-enter {
+    background-color: rgb(243, 92, 92);
+}
+
+#mouse-out {
+    background-color: rgb(109, 109, 240);
+}
+
+#mouse-move {
+    background-color: pink;
+}
+
+#mouse-over {
+    background-color: yellowgreen;
+}
+
+#mouse-click {
+    background-color: purple;
+}
+
+#mouse-dblclick {
+    background-color: rgb(237, 75, 137);
+}
+
+#mouse-leave {
+    background-color: black;
+}
+
+#mouse-up {
+    background-color: grey;
+}
