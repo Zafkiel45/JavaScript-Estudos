@@ -51,3 +51,7 @@ div.eventos-mouse{
 #mouse-up {
     background-color: grey;
 }
+
+#mouse-right {
+    background-color:rgb(109, 218, 240);
+}
