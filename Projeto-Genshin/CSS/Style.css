@@ -28,6 +28,8 @@ section {
     box-shadow: 2px 2px 3px black;
     border-radius: 1.25em;
     height: 150px;
+    position: relative;
+    left: 200px;    
 }
 
 .container-img {
@@ -42,6 +44,8 @@ section {
 .picture {
     width: 321px;
     height: 600px;
+    position: relative;
+    left: 90%;
 }
 
 #pesquisa {
