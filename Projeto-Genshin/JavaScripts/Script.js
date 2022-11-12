@@ -3,6 +3,14 @@ var img = document.getElementById('imagem');
 var container = document.getElementsByClassName('container-universal') [0]
 var botão = document.getElementById('confirmar')
 
+//Arrays
+
+let elemento = ['anemo', 'cryo', 'dendro', 'electro', 'geo', 'hydro', 'pyro']
+let função = ['suporte', 'Off Field', 'DPS', 'Sub-dps', 'Tank', 'Buff']
+let arma = ['espada', 'espadão', 'catalisador', 'arco', 'lança']
+let região = ['Mondsth', 'Liyue','Inazuma', 'Sumeru']
+let sexo = ['homem', 'mulher']
+
 function clicou() {
     if(nome.value.length == 0){
         alert('[ERRO] Verifique os dados e tente novamente')
