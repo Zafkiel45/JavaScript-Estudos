@@ -1,6 +1,6 @@
-let dino = function(){
-`
-    <div id="card">
+function dino(){
+
+return `   <div id="card">
     <ol id="lista-card">
         <li class="item-card">1</li>
         <li class="item-card">2</li>
@@ -10,6 +10,7 @@ let dino = function(){
     `
 }
 
-document.getElementById('principal').innerHTML = `
-    ${dino}
-`
+document.getElementById('principal').innerHTML = dino() + 
+dino() + 
+dino() +
+dino()
