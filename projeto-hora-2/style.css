@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffff;
+}
+
+#titulo-1 {
+    text-align: center;
+    margin: 2%;
+}
+
+#section-1 {
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    color: white;
+    line-height: 1.5em;
+    text-align: justify;
+    border-radius: 1.25em;
+    background-color: rgb(25, 29, 46); 
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#res {
+    margin: 5%;
+    text-align: center;
+}

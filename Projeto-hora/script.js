@@ -14,7 +14,7 @@ if(hora > 5 && hora < 12) {
 } else if (hora >=12 && hora < 18) {
     document.body.style.backgroundColor = '#F77F19'
     img.src = 'imagens/tarde.jpg'
-    atual_hora.innerHTML = `São exatamente: ${horas}`
+    atual_hora.innerHTML = `São exatamente: ${hora}`
     comprimento.innerHTML = 'Boa tarde!'
 
 } else if(hora >=18 && hora < 23) {
