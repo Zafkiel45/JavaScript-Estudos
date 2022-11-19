@@ -4,18 +4,28 @@
     box-sizing: border-box; 
 }
 
-.imagem {
-    position: absolute; 
-    width: 700px; 
-    height: 500px; 
-    z-index: 0;
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-figure {
-    width: 700px;
-    height: 500px; 
+.carrosel {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
 }
 
-.visible {
-    z-index: 1;
+.container {
+    display: flex;
+    transform: translateX(0);
+}
+
+
+img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
 }
