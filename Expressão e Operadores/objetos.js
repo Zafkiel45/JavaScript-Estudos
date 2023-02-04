@@ -35,3 +35,4 @@ let anime = ['akame_ga_kill', ['gore',17, 2014]];
 
 console.log(anime[1][0]);
 
+new Object() // cap 9 
