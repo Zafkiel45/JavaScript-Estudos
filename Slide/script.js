@@ -26,17 +26,13 @@ const next = document.querySelector('#next');
 
 prev.addEventListener('click', function(){
     slides[idx].classList.remove('slide-ativo');
-    console.log(idx)
     idx = (idx - 1 + slides.length) % slides.length;
-    console.log(idx)
     slides[idx].classList.add('slide-ativo');
 })
 
 next.addEventListener('click', function(){
     slides[idx].classList.remove('slide-ativo');
-    console.log(idx)
     idx = (idx + 1) % slides.length ;
-    console.log(idx)
     slides[idx].classList.add('slide-ativo');
 })
 
