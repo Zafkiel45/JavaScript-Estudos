@@ -1,7 +1,6 @@
 function calcular(){
     let num = document.getElementById('multiplication');
     let item = document.getElementById('result');
-
     if(num.value.length == 0){
         alert('[ERRO] verifique os dados e tente novamente!')
     } else {
