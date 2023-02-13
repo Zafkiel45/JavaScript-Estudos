@@ -1,21 +1,20 @@
-let murilo = {
-    camisa: "preta",
-    short: "azul",
-    feliz: true,
-    carro: false,
-    estudante: 'sim',
-    PC: {
-        placa_de_vídeo: 'GTX 750',
-        placa_mãe: undefined,
-        teclado: 'AOAS',
-        mouse: 'AOAS',
-    },
-    correu: function(km){
-        alert("correu " + km + " km")
-    }
-}
+const confirmar = document.getElementById('button');
+const res = document.getElementById('res');
 
-murilo.correu(20) // acessando a função do objeto
+confirmar.addEventListener('click', function(){
+    let perfil = {
+    
+    }
+    
+    nome: let nome =  document.getElementById('name').value;
+    let waifu = document.getElementById('waifu').value;
+    res.innerHTML = `${nome}`
+})
+
+console.log(nome)
+
+
+// acessando a função do objeto
 
 
 /*
