@@ -16,3 +16,9 @@ for(let i = 20; i > 0; i--) {
     }
     console.log(i)
 }
+
+let o = {x: 1, y:2, z:3}
+
+for(let p in o) { // variável p armazena o nome de todos os objetos enumeráveis
+    console.log(p + ":" + o['x'])
+}
