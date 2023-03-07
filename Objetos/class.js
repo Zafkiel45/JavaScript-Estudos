@@ -1,29 +1,29 @@
-class Anime {
-    _nome
-    _ano
-    _gênero
-    _censura
-}
+// class Anime {
+//     _nome
+//     _ano
+//     _gênero
+//     _censura
+// }
 
-let anime = new Anime()
-let anime2 = new Anime()
+// let anime = new Anime()
+// let anime2 = new Anime()
 
-anime._ano = 2014
-anime2._ano = 2018
-console.log(anime._ano);
-console.log(anime2._ano)
+// anime._ano = 2014
+// anime2._ano = 2018
+// console.log(anime._ano);
+// console.log(anime2._ano)
 
 //Acima tá o método errado, que eu aprendi quando iniciei meus estudos de classes
 
 
 
 class cliente {
-    _nome
-    _idade
-    _cargo
-    _regiao
-    _numero_da_sorte
-    constructor(nome, idade, cargo, regiao, sorte) {
+    // _nome
+    // _idade
+    // _cargo
+    // _regiao
+    // _numero_da_sorte
+    constructor(nome='joão', idade, cargo, regiao, sorte='5') {
         this._nome = nome
         this._idade = idade
         this._cargo = cargo
@@ -45,7 +45,7 @@ class cliente {
     }
 }
 
-let cliente_1 = new cliente('Jonas', 44, 'gerente', 'Estados Unidos(EUA)', 5 * 5)
+let cliente_1 = new cliente('Jonas', 44, 'gerente', 'Estados Unidos(EUA)')
 
 cliente_1.nome = 'Rubya'
 cliente_1.idade = sorte()
