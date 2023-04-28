@@ -1,22 +1,28 @@
-let anime = {
-    "akame ga kill": {
-        "Nome": 'akame ga kill',
-        "Ano": '2014',
-        "genero": "Gore, Ação",
-        "Nota": "10"
-    },
-    Oreigairu: {
-        "Nome": "Oreigairu",
-        "Ano": "2012",
-        "genero": "Romance, drama",
-        "Nota": "10"
-    }
-}
-
-console.log(anime["akame ga kill"]["Nome"])
-console.log(anime["akame ga kill"]["Ano"])
-console.log(anime["akame ga kill"]["genero"])
-console.log(anime["Oreigairu"]["Nome"])
-console.log(Object.getPrototypeOf(anime))
+let teste = {}
+let array = [1,1,1,2,2,2,3,3,3,3,3,4,2,5,1,10]
+let max = 0 
+let comum = 0 
 
 
+
+    array.forEach(function(item){
+        if(teste[item]){
+            teste[item]++
+        } else {
+            teste[item] = 1 
+        }
+        if(teste[item] > max) {
+            max = teste[item]
+            comum = item
+            console.log(comum)
+        }
+    
+    })
+
+
+// objectos 
+
+
+console.log(teste)
+// console.log(max)
+// console.log(comum)
