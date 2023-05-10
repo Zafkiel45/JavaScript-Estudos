@@ -20,11 +20,15 @@ console.log(prototipo)
 const nome = prototipo.map(function(nome){
     return nome.nome
 })
+
 console.log(nome)
+
 const idade = prototipo.map(function(idade){
     return idade.idade
 })
+
 console.log(idade)
+
 const profissão = prototipo.map(function(profissão){
     return profissão.profissão
 })

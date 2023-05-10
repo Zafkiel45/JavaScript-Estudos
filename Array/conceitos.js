@@ -6,7 +6,7 @@ console.log('PRÓXIMO EXEMPLO')
 
 //como demostrado acima. Arrays podem armazenas variáveis, assim tendo o valor de variável no array. 
 
-//Array são dinâmicos e podem ter cerca de 4 milões de elementos
+//Array são dinâmicos e podem ter cerca de 4 milhões de elementos
 
 let complex_colection = [1, [2, {nome: 'joão', idade: 20}, 3, {nome: "aline", idade: 33}]]
 

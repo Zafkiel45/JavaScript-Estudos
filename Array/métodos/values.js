@@ -4,5 +4,4 @@ for(const item of Object.values(teste)) {
     console.log(item)
 }
 
-
 // Retorna somente o valor de um objeto iterável. Podendo ser útil em diversas situações. 
